@@ -78,7 +78,14 @@ color: DimGray;
 }
 
 .lite {
-color: #585858;
+color: DimGray;
+}
+
+.announcement {
+background-color:yellow;
+padding:10px 0 10px 0;
+text-align: center;
+font-family: sans;
 }
 
 </style>
@@ -88,7 +95,7 @@ color: #585858;
 
     <header style="position: sticky; top: 0;">
     <!-- announcement banner -->
-    <div style="background-color:yellow; padding:10px 0 10px 0; text-align: center;">
+    <div class="announcement">
     <b>Institute for Advancing Intelligence (IAI), TCG CREST PhD Admission 2023</b> &nbsp;&nbsp; <a href="https://www.tcgcrest.org/iai-programs-2023/" target="_blank"><button style="padding:5px; cursor: pointer;"><b>View Details & Apply</b></button></a>
     </div>
     
@@ -103,12 +110,14 @@ color: #585858;
     
     <div>
         <h3>Assistant professor</h3>
-        <p style="font-family: Ubuntu Condensed;">
-        <a href="https://www.tcgcrest.org/researches/translational-research-in-mathematics-trim/" target="_blank">Translational Research in Mathematics</a> (TRIM) group<br>
-        <a href="https://www.tcgcrest.org/institutes/iai/" target="_blank">Institute for Advancing Intelligence</a> (IAI)<br>
-        <a href="https://www.tcgcrest.org/" target="_blank">TCG Centres for Research and Education in Science and Technology</a> (TCG CREST)<br>
-        Kolkata – 700091, West Bengal, India
-        </p>
+        
+<ol style="list-style-type: none; padding-left: 0; font-family: Ubuntu Condensed; font-size: 1.1em; display: flex; flex-direction: column; gap: 0.3em;">
+<li> <a href="https://www.tcgcrest.org/researches/translational-research-in-mathematics-trim/" target="_blank">Translational Research in Mathematics</a> (TRIM) group
+<li> <a href="https://www.tcgcrest.org/institutes/iai/" target="_blank">Institute for Advancing Intelligence</a> (IAI)
+<li> <a href="https://www.tcgcrest.org/" target="_blank">TCG Centres for Research and Education in Science and Technology</a> (TCG CREST)
+<li> Kolkata – 700091, West Bengal, India
+</ol>
+
         <aside>
 <details>
   <summary>
@@ -126,7 +135,7 @@ color: #585858;
 <summary>
     <span style="font-family: Ubuntu Condensed;"><b>Links</b></span>
 </summary>
-<ul>
+<ul style="display: flex; flex-direction: column; gap: 0.5em;">
   <li><a class="mylinks" href="https://scholar.google.com/citations?user=pYQc9iQAAAAJ" target="_blank">Google Scholar profile</a>
   <li><a class="mylinks" href="https://orcid.org/0000-0002-6547-4835" target="_blank">ORCID iD</a>
   <li><a class="mylinks" href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1263583" target="_blank">MR Author ID (MathSciNet)</a>
@@ -259,6 +268,8 @@ eprint: <a href="https://arxiv.org/abs/2303.07054" target="_blank"><code>arXiv:2
 
  <footer>
   <h4 style="font-family: Oswald; color:#505050;">Maths links</h4>
+
+<span style="line-height: 1.8;">
  	 &#x2022;&nbsp;<a class="ftrlinks" href="http://www.ams.org/mathscinet/search.html" target="_blank">MathSciNet</a>&nbsp;&nbsp;&nbsp;
         &#x2022;&nbsp;<a class="ftrlinks" href="https://arxiv.org/search/" target="_blank">arXiv search</a>&nbsp;&nbsp;&nbsp;
         &#x2022;&nbsp;<a class="ftrlinks" href="http://mathoverflow.net/" target="_blank">MathOverflow</a>&nbsp;&nbsp;&nbsp;
@@ -268,6 +279,8 @@ eprint: <a href="https://arxiv.org/abs/2303.07054" target="_blank"><code>arXiv:2
         &#x2022;&nbsp;<a class="ftrlinks" href="http://link.springer.com/search?facet-discipline=%22Mathematics%22" target="_blank">Springer Link</a>&nbsp;&nbsp;&nbsp;
         &#x2022;&nbsp;<a class="ftrlinks" href="https://www.encyclopediaofmath.org/index.php/Main_Page" target="_blank">Encyclopedia of Mathematics</a>&nbsp;&nbsp;&nbsp;
         &#x2022;&nbsp;<a class="ftrlinks" href="http://genealogy.math.ndsu.nodak.edu/" target="_blank">Maths Genealogy Project</a>
+</span>
+
 </footer> 
 </div>
 </body>
