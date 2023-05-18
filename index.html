@@ -6,12 +6,53 @@
     
     <title>Welcome to Anupam Mondal's homepage</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 
 <style>
+@font-face {
+   font-family: Oswald;
+   src: url(/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+   font-family: Ubuntu;
+   src: url(/fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+   font-family: Ubuntu;
+   src: url(/fonts/Ubuntu-Bold.ttf);
+   font-weight: bold;
+   font-style: bold;
+}
+
+@font-face {
+   font-family: Ubuntu;
+   src: url(/fonts/Ubuntu-Italic.ttf);
+   font-style: italic;
+}
+
+@font-face {
+   font-family: Ubuntu Med;
+   src: url(/fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+   font-family: Ubuntu Light;
+   src: url(/fonts/Ubuntu-Light.ttf);
+}
+
+@font-face {
+   font-family: Ubuntu Narrow;
+   src: url(/fonts/UbuntuCondensed-Regular.ttf);
+}
+
+@font-face {
+   font-family: Ubuntu Mono;
+   src: url(/fonts/UbuntuMono-Regular.ttf);
+}
+
+
+
 body  {
 background-color:#f6efdf; 
 margin:0;
@@ -24,7 +65,7 @@ text-decoration-line: underline;
 text-decoration-color: #96adfc;
 text-decoration-thickness: 0.4rem;
 text-underline-offset: 12px;
-font-family: Oswald, Ubuntu Condensed, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
+font-family: Oswald, Ubuntu Narrow, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
 }
 
 h2 {
@@ -33,11 +74,11 @@ text-decoration-line: underline;
 text-decoration-color: #a5f7e1;
 text-decoration-thickness: 0.4rem;
 text-underline-offset: 8px;
-font-family: Oswald, Ubuntu Condensed, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
+font-family: Oswald, Ubuntu Narrow, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
 }
 
 h3 {
-font-family: Ubuntu Condensed, Ubuntu, Verdana, Arial, sans-serif;
+font-family: Ubuntu Narrow, Ubuntu, Verdana, Arial, sans-serif;
 }
 
 details {
@@ -48,6 +89,10 @@ summary {
 background-color:#f6efdf;
 padding:5px;
 cursor: pointer;
+}
+
+code {
+font-family: Ubuntu Mono;
 }
 
 .lefth {
@@ -68,17 +113,21 @@ cursor: pointer;
 
 .mylinks {
 text-decoration: none;
-font-family: Ubuntu Condensed;
+font-family: Ubuntu Narrow;
 color: #404040;
 }
-.ftrlinks {
+.mthlinks {
 text-decoration: none;
-font-family: Ubuntu Condensed;
+font-family: Ubuntu Narrow;
 color: DimGray;
 }
 
 .lite {
-color: DimGray;
+font-family: Ubuntu Light;
+}
+
+.med {
+font-family: Ubuntu Med;
 }
 
 .announcement {
@@ -111,7 +160,7 @@ font-family: sans;
     <div>
         <h3>Assistant professor</h3>
         
-<ol style="list-style-type: none; padding-left: 0; font-family: Ubuntu Condensed; font-size: 1.1em; display: flex; flex-direction: column; gap: 0.3em;">
+<ol style="list-style-type: none; padding-left: 0; font-family: Ubuntu Narrow; font-size: 1.1em; display: flex; flex-direction: column; gap: 0.3em;">
 <li> <a href="https://www.tcgcrest.org/researches/translational-research-in-mathematics-trim/" target="_blank">Translational Research in Mathematics</a> (TRIM) group
 <li> <a href="https://www.tcgcrest.org/institutes/iai/" target="_blank">Institute for Advancing Intelligence</a> (IAI)
 <li> <a href="https://www.tcgcrest.org/" target="_blank">TCG Centres for Research and Education in Science and Technology</a> (TCG CREST)
@@ -121,11 +170,11 @@ font-family: sans;
         <aside>
 <details>
   <summary>
-    <span style="font-family: Ubuntu Condensed;"><b>Email addresses</b></span>
+    <span style="font-family: Ubuntu Narrow;"><b>Email addresses</b></span>
   </summary>
   <div style="padding:5px;">
-  <span style="font-family: Ubuntu Condensed;">Official:</span> <code>Anupam[<i>dot</i>]Mondal[<b><i>at</i></b>]tcgcrest[<i>dot</i>]org</code><br>
-  <span style="font-family: Ubuntu Condensed;">Gmail:</span> <code>AnupamM[<i>dot</i>]DiscMath[<b><i>at</i></b>]gmail[<i>dot</i>]com</code>
+  <span style="font-family: Ubuntu Narrow;">Official:</span> <code>Anupam[<i>dot</i>]Mondal[<b><i>at</i></b>]tcgcrest[<i>dot</i>]org</code><br>
+  <span style="font-family: Ubuntu Narrow;">Gmail:</span> <code>AnupamM[<i>dot</i>]DiscMath[<b><i>at</i></b>]gmail[<i>dot</i>]com</code>
   </div>
 </details>
 
@@ -133,15 +182,17 @@ font-family: sans;
 
 <details>
 <summary>
-    <span style="font-family: Ubuntu Condensed;"><b>Links</b></span>
+    <span style="font-family: Ubuntu Narrow;"><b>Links</b></span>
 </summary>
-<ul style="display: flex; flex-direction: column; gap: 0.5em;">
-  <li><a class="mylinks" href="https://scholar.google.com/citations?user=pYQc9iQAAAAJ" target="_blank">Google Scholar profile</a>
-  <li><a class="mylinks" href="https://orcid.org/0000-0002-6547-4835" target="_blank">ORCID iD</a>
-  <li><a class="mylinks" href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1263583" target="_blank">MR Author ID (MathSciNet)</a>
-  <li><a class="mylinks" href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=252185" target="_blank">Mathematics Genealogy Project</a>
-  <li><a class="mylinks" href="https://sites.google.com/view/anupam-m-discmath" target="_blank">Homepage (at sites.google.com)</a>
-</ul>
+  <div style="padding:5px;">
+<span style="line-height: 1.5em;">
+ 	 &#x2022;&nbsp;<a class="mylinks" href="https://scholar.google.com/citations?user=pYQc9iQAAAAJ" target="_blank">Google Scholar profile</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mylinks" href="https://orcid.org/0000-0002-6547-4835" target="_blank">ORCID iD</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mylinks" href="https://mathscinet.ams.org/mathscinet/MRAuthorID/1263583" target="_blank">MR Author ID (MathSciNet)</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mylinks" href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=252185" target="_blank">Mathematics Genealogy Project</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mylinks" href="https://sites.google.com/view/anupam-m-discmath" target="_blank">Homepage (at sites.google.com)</a>
+</span>
+</div>
 </details>
 <hr>
     </div>
@@ -154,22 +205,22 @@ font-family: sans;
 
 <h3>Areas of interest</h3>
  <ul>
-  <li><b>Graph theory:</b> matchings and flows, graph colouring etc.</li>
-  <li><b>Combinatorial topology:</b> abstract simplicial complexes, simplicial homology, discrete Morse theory etc.</li>
-  <li><b>Combinatorial and discrete geometry</b></li>
-  <li><b>Enumerative and topological combinatorics</b></li>
+  <li> <span class="med">Graph theory:</span> matchings and flows, graph colouring etc.</li>
+  <li> <span class="med">Combinatorial topology:</span> abstract simplicial complexes, simplicial homology, discrete Morse theory etc.</li>
+  <li> <span class="med">Combinatorial and discrete geometry</span></li>
+  <li> <span class="med">Enumerative and topological combinatorics</span></li>
 </ul>
 </div>
 
 <div class="righth">
 <h3>Education</h3>
 <ul>
- <li> 2019 <b>Ph.D. in Mathematics</b><br>
+ <li> 2019 <span class="med">Ph.D. in Mathematics</span><br>
       <a href="http://www.tifr.res.in/" target="_blank">Tata Institute of Fundamental Research</a> <span class="lite">(TIFR), Mumbai, India<br>
       <small>(thesis submitted in December, 2018 and defended it in June, 2019; thesis advisor: Prof. Amitava Bhattacharya, School of Mathematics, TIFR)</small></span>
- <li> 2013 <b>M.Sc. in Mathematics</b><br>
+ <li> 2013 <span class="med">M.Sc. in Mathematics</span><br>
       <a href="https://math.iitm.ac.in/" target="_blank">Indian Institute of Technology Madras</a> <span class="lite">(IITM), Chennai, India</span>
- <li> 2011 <b>B.Sc. with Honours</b> (First Class in Mathematics)<br>
+ <li> 2011 <span class="med">B.Sc. with Honours</span> (First Class in Mathematics)<br>
       <a href="https://rkmrc.in/" target="_blank">Ramakrishna Mission Residential College</a> <span class="lite">(under </span>University of Calcutta<span class="lite">), Narendrapur, Kolkata, India</span>
 </ul>
 </div>
@@ -184,13 +235,13 @@ font-family: sans;
 <ul>
 <li> <h4>2023, spring semester</h4>
 <ol>
-<li> Combinatorics and Graph Theory – II <span class="lite">(jointly)</span>
-<li> Combinatorial Optimisation <span class="lite">(jointly, reading course)</span>
+<li> <span class="med">Combinatorics and Graph Theory – II</span> <span class="lite">(jointly)</span>
+<li> <span class="med">Combinatorial Optimisation</span> <span class="lite">(jointly, reading course)</span>
 </ol>
 
 <li> <h4>2022, autumn semester</h4>
 <ol style="list-style-type: none">
-<li> Combinatorics and Graph Theory <span class="lite">(jointly)</span>
+<li> <span class="med">Combinatorics and Graph Theory</span> <span class="lite">(jointly)</span>
 </ol>
 </ul>
 </div>
@@ -199,13 +250,13 @@ font-family: sans;
 <ul>
 <li> <h4>2022, spring semester</h4>
 <ol>
-<li> Graph Theory and Matroids – II <span class="lite">(jointly, reading course)</span>
-<li> Trends in Combinatorics and Topology <span class="lite">(jointly)</span>
+<li> <span class="med">Graph Theory and Matroids – II</span> <span class="lite">(jointly, reading course)</span>
+<li> <span class="med">Trends in Combinatorics and Topology</span> <span class="lite">(jointly)</span>
 </ol>
 
 <li> <h4>2021, autumn semester</h4>
 <ol style="list-style-type: none">
-<li> Graph Theory and Matroids – I <span class="lite">(jointly)</span>
+<li> <span class="med">Graph Theory and Matroids – I</span> <span class="lite">(jointly)</span>
 </ol>
 
 </ul>
@@ -215,7 +266,7 @@ font-family: sans;
 
 <details>
   <summary>
-    <span style="font-family: Ubuntu Condensed;">Talks in <b>CREST School: Applied Combinatorics – Cryptography and Combinatorial Topology (2022)</b></span>
+    <span style="font-family: Ubuntu Narrow;">Talks in <b>CREST School: Applied Combinatorics – Cryptography and Combinatorial Topology (2022)</b></span>
   </summary>
   
   <div style="padding:5px;">
@@ -236,13 +287,13 @@ Gave a couple of talks in <a href="https://www.tcgcrest.org/crest-school-2022/" 
 
 <h3>Journal articles</h3>
  <ul>
-<li> On Elser's conjecture and the topology of <span style="font-family:serif"><i>U</i></span>-nucleus complex <span class="lite">(with A. Chakraborty, S. Mukherjee and K. Saha).</span> <i>Journal of Combinatorial Theory, Series A</i><span class="lite">, 197:105748 (2023).</span><br>
+<li> <span class="med">On Elser's conjecture and the topology of </span><span style="font-family:serif"><i>U</i></span><span class="med">-nucleus complex</span> <span class="lite">(with A. Chakraborty, S. Mukherjee and K. Saha).</span> <i>Journal of Combinatorial Theory, Series A</i><span class="lite">, 197:105748 (2023).</span><br>
 DOI: <a href="https://doi.org/10.1016/j.jcta.2023.105748" target="_blank"><code>10.1016/j.jcta.2023.105748</code></a> (eprint: <a href="https://arxiv.org/abs/2203.12525" target="_blank"><code>arXiv:2203.12525</code></a>)
 
-<li> Covering the plane by a sequence of circular disks with a constraint <span class="lite">(with A. Bhattacharya).</span> <i>Computational Geometry</i><span class="lite">, 91:101680 (2020).</span><br>
+<li> <span class="med">Covering the plane by a sequence of circular disks with a constraint</span> <span class="lite">(with A. Bhattacharya).</span> <i>Computational Geometry</i><span class="lite">, 91:101680 (2020).</span><br>
 DOI: <a href="https://doi.org/10.1016/j.comgeo.2020.101680" target="_blank"><code>10.1016/j.comgeo.2020.101680</code></a> (eprint: <a href="https://arxiv.org/abs/1810.01255" target="_blank"><code>arXiv:1810.01255</code></a>)
 
-<li> Problems on matchings and independent sets of a graph <span class="lite">(with A. Bhattacharya and T. S. Murthy).</span> <i>Discrete Mathematics</i><span class="lite">, 341(6):1561–1572 (2018).</span><br>
+<li> <span class="med">Problems on matchings and independent sets of a graph</span> <span class="lite">(with A. Bhattacharya and T. S. Murthy).</span> <i>Discrete Mathematics</i><span class="lite">, 341(6):1561–1572 (2018).</span><br>
 DOI: <a href="https://doi.org/10.1016/j.disc.2018.02.021" target="_blank"><code>10.1016/j.disc.2018.02.021</code></a> (eprint: <a href="https://arxiv.org/abs/1701.03040" target="_blank"><code>arXiv:1701.03040</code></a>)
 </ul>
 </div>
@@ -250,11 +301,11 @@ DOI: <a href="https://doi.org/10.1016/j.disc.2018.02.021" target="_blank"><code>
 <div class="righth">
 <h3>Preprints and other articles</h3>
 <ul>
-<li> A note on an application of discrete Morse theoretic techniques on the complex of disconnected graphs <span class="lite">(with P. C. Pramanik).</span><br>
+<li> <span class="med">A note on an application of discrete Morse theoretic techniques on the complex of disconnected graphs</span> <span class="lite">(with P. C. Pramanik).</span><br>
 eprint: <a href="https://arxiv.org/abs/2305.08086" target="_blank"><code>arXiv:2305.08086</code></a>
-<li> Discrete Morse theoretic computations in the matching complex of <span style="font-family:serif"><i>K<sub>7</sub></i></span> <span class="lite">(with S. Mukherjee and K. Saha).</span><br>
+<li> <span class="med">Discrete Morse theoretic computations in the matching complex of </span><span style="font-family:serif"><i>K<sub>7</sub></i></span> <span class="lite">(with S. Mukherjee and K. Saha).</span><br>
 eprint: <a href="https://arxiv.org/abs/2305.02973" target="_blank"><code>arXiv:2305.02973</code></a>
-<li> Discrete Morse theory and the topology of matching complexes of complete graphs <span class="lite">(with S. Mukherjee and K. Saha).</span><br>
+<li> <span class="med">Discrete Morse theory and the topology of matching complexes of complete graphs</span> <span class="lite">(with S. Mukherjee and K. Saha).</span><br>
 eprint: <a href="https://arxiv.org/abs/2303.07054" target="_blank"><code>arXiv:2303.07054</code></a>
 
 </ul>
@@ -264,23 +315,33 @@ eprint: <a href="https://arxiv.org/abs/2303.07054" target="_blank"><code>arXiv:2
 
 <div style="text-align: center;"> <a href="https://arxiv.org/a/mondal_a_2.html" target="_blank"><button style="padding:5px; cursor: pointer;"><b>Articles on arXiv</b></button></a></div>
 <hr>
-
-
- <footer>
-  <h4 style="font-family: Oswald; color:#505050;">Maths links</h4>
-
-<span style="line-height: 1.8;">
- 	 &#x2022;&nbsp;<a class="ftrlinks" href="http://www.ams.org/mathscinet/search.html" target="_blank">MathSciNet</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="https://arxiv.org/search/" target="_blank">arXiv search</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="http://mathoverflow.net/" target="_blank">MathOverflow</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="http://math.stackexchange.com/" target="_blank">Maths Stack Exchange</a>
-        &#x2022;&nbsp;<a class="ftrlinks" href="http://www.wolframalpha.com/" target="_blank">Wolfram|Alpha</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="http://www.jstor.org/action/showJournals?discipline=43693411&" target="_blank">JSTOR</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="http://link.springer.com/search?facet-discipline=%22Mathematics%22" target="_blank">Springer Link</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="https://www.encyclopediaofmath.org/index.php/Main_Page" target="_blank">Encyclopedia of Mathematics</a>&nbsp;&nbsp;&nbsp;
-        &#x2022;&nbsp;<a class="ftrlinks" href="http://genealogy.math.ndsu.nodak.edu/" target="_blank">Maths Genealogy Project</a>
+<details>
+  <summary>
+    <span style="font-family: Oswald; color:#505050;">Useful maths links</span>
+  </summary>
+  <div style="padding:5px;">
+<span style="line-height: 1.5em;">
+ 	 &#x2022;&nbsp;<a class="mthlinks" href="http://www.ams.org/mathscinet/search.html" target="_blank">MathSciNet</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="https://arxiv.org/search/" target="_blank">arXiv search</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="http://mathoverflow.net/" target="_blank">MathOverflow</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="http://math.stackexchange.com/" target="_blank">Maths Stack Exchange</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="http://www.wolframalpha.com/" target="_blank">Wolfram|Alpha</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="http://www.jstor.org/action/showJournals?discipline=43693411&" target="_blank">JSTOR</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="http://link.springer.com/search?facet-discipline=%22Mathematics%22" target="_blank">Springer Link</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="https://encyclopediaofmath.org/wiki/Main_Page" target="_blank">Encyclopedia of Mathematics</a>&nbsp;&nbsp;&nbsp;
+        &#x2022;&nbsp;<a class="mthlinks" href="http://genealogy.math.ndsu.nodak.edu/" target="_blank">Maths Genealogy Project</a>
 </span>
+</div>
+</details>
+<hr>
+ <footer>
+ <div style="text-align: center;">
+This homepage is written in HTML and CSS only. It contains the <a href="https://github.com/googlefonts/OswaldFont" target="_blank"><span style="font-family: Oswald;">Oswald</span></a> font and the <a href="https://design.ubuntu.com/font" target="_blank"><span style="font-family: Ubuntu;">Ubuntu</span></a> font family.
 
+<br><br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+</div>
 </footer> 
 </div>
 </body>
