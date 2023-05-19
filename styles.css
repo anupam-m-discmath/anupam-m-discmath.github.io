@@ -42,11 +42,20 @@
 }
 
 
-
 body  {
 background-color:#f6efdf; 
 margin:0;
 font-family: Ubuntu, Verdana, Arial, sans-serif ;
+}
+
+header {
+position: sticky;
+top: 0;
+}
+
+.rlheader {
+background-color:#edd1b0;
+padding:1px 0 2px 0;
 }
 
 h1 {
