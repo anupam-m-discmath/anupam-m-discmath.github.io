@@ -102,7 +102,7 @@ font-family: Ubuntu Mono;
 
 footer {
 margin:0 2% 1% 2%;
-font-family: sans;
+font-family: serif;
 }
 
 .lefth {
@@ -139,5 +139,5 @@ font-family: Ubuntu Med;
 background-color:yellow;
 padding:10px 0 10px 0;
 text-align: center;
-font-family: sans;
+font-family: serif;
 }
