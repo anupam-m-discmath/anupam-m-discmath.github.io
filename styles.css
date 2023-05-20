@@ -141,3 +141,11 @@ padding:10px;
 text-align: center;
 font-family: serif;
 }
+
+hr.section {
+  margin-top: 5px; height: 3px; border: none; background-color: gray;
+}
+
+hr.thin {
+  margin-top: 5px; height: 1px; border: none; background-color: darkgray;
+}
