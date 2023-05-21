@@ -61,7 +61,7 @@ padding:1px 10px 2px 10px;
 h1 {
 text-align: center;
 text-decoration-line: underline;
-text-decoration-color: #96adfc;
+text-decoration-color: teal;
 text-decoration-thickness: 0.4rem;
 text-underline-offset: 12px;
 font-family: Oswald, Ubuntu Narrow, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
@@ -71,7 +71,7 @@ font-weight: normal;
 h2 {
 text-align: center;
 text-decoration-line: underline;
-text-decoration-color: #a5f7e1;
+text-decoration-color: #96adfc;
 text-decoration-thickness: 0.4rem;
 text-underline-offset: 8px;
 font-family: Oswald, Ubuntu Narrow, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
@@ -123,14 +123,14 @@ a:active {
 
 a.btn:link, a.btn:visited {
   color: black;
-  border: 2px solid DodgerBlue;
+  border: 2px solid teal;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 a.btn:hover, a.btn:active {
-  background-color: DodgerBlue;
+  background-color: teal;
   color: white;
 }
 
