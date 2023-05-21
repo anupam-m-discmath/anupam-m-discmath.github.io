@@ -107,8 +107,37 @@ margin:0 2% 1% 2%;
 font-family: serif;
 }
 
-a {
+ /* unvisited link */
+a:link {
+  color: teal;
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: #bf3b3b;
+}
+/* selected link */
+a:active {
+  color: red;
+} 
+
+a.btn:link, a.btn:visited {
+  color: black;
+  border: 2px solid DodgerBlue;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.btn:hover, a.btn:active {
+  background-color: DodgerBlue;
+  color: white;
+}
+
+a.mylinks {
 text-decoration: none;
+font-family: Ubuntu Narrow;
+color: #404040;
 }
 
 .lefth {
@@ -125,12 +154,6 @@ text-decoration: none;
   .lefth, .righth {
     width: 100%; /* The width is 100%, when the viewport is max-width or smaller */
   }
-}
-
-.mylinks {
-text-decoration: none;
-font-family: Ubuntu Narrow;
-color: #404040;
 }
 
 .lite {
