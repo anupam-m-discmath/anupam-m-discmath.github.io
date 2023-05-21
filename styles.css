@@ -65,6 +65,7 @@ text-decoration-color: #96adfc;
 text-decoration-thickness: 0.4rem;
 text-underline-offset: 12px;
 font-family: Oswald, Ubuntu Narrow, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
+font-weight: normal;
 }
 
 h2 {
@@ -74,6 +75,7 @@ text-decoration-color: #a5f7e1;
 text-decoration-thickness: 0.4rem;
 text-underline-offset: 8px;
 font-family: Oswald, Ubuntu Narrow, Arial Narrow, Ubuntu, Verdana, Arial, sans-serif;
+font-weight: normal;
 }
 
 h3 {
