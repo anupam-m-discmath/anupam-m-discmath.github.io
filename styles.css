@@ -81,8 +81,8 @@ font-weight: normal;
 h3 {
 text-decoration-line: underline;
 text-decoration-color: #a5f7e1;
-text-decoration-thickness: 0.2rem;
-text-underline-offset: 6px;
+text-decoration-thickness: 0.3rem;
+text-underline-offset: 7px;
 font-family: Ubuntu Narrow, Ubuntu, Verdana, Arial, sans-serif;
 }
 
