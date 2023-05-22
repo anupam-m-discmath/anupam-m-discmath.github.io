@@ -157,9 +157,18 @@ color: #404040;
   float: right;
   width: 48%;
 }
+
+ .rightim {
+  float: right;
+  width: 220px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+}
 /* Use a media query to add a breakpoint at some px: */
 @media only screen and (max-width: 800px) {
-  .lefth, .righth {
+  .lefth, .righth, .rightim {
     width: 100%; /* The width is 100%, when the viewport is max-width or smaller */
   }
 }
