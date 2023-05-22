@@ -126,8 +126,7 @@ a:active {
 } 
 
 a.btn:link, a.btn:visited {
-
-  border: 2px solid;
+  border: 2px solid teal;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -138,6 +137,7 @@ a.btn:hover, a.btn:active {
   color: white;
 }
 a.btn:visited:hover, a.btn:visited:active {
+  border: 2px solid #bf3b3b;
   background-color: #bf3b3b;
   color: white;
 }
