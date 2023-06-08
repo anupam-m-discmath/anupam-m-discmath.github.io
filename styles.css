@@ -115,8 +115,8 @@ color: #404040;
   width: 48%;
 }
 
- .rightim {
-  float: right;
+ .profimg {
+  float: left;
   width: 220px;
   display: flex; 
   align-items: center;
@@ -125,7 +125,7 @@ color: #404040;
 }
 /* Use a media query to add a breakpoint at some px: */
 @media only screen and (max-width: 800px) {
-  .lefth, .righth, .rightim {
+  .lefth, .righth, .profimg {
     width: 100%; /* The width is 100%, when the viewport is max-width or smaller */
   }
 }
